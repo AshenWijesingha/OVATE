@@ -1,0 +1,21 @@
+{
+  "name": "OVATE Security",
+  "short_name": "OVATE",
+  "description": "UK-based enterprise cybersecurity consultancy providing MDR, penetration testing, GRC, and vCISO services.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "en-GB",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/dkj22lm1g/image/upload/v1775641127/white_logo_5x_ggabv7.webp",
+      "sizes": "any",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "security"],
+  "scope": "/",
+  "orientation": "any"
+}
