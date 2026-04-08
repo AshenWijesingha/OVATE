@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Disallow crawling of any future admin or private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.github/
+
+# Sitemap location
+Sitemap: https://ovatesecurity.com/sitemap.xml
