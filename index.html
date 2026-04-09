@@ -591,7 +591,7 @@ if(window.matchMedia('(pointer:fine)').matches){
 function triggerHero(){
   document.getElementById('nav').classList.add('visible');
   const title=document.getElementById('heroTitle');
-  const html=title.innerHTML;
+  const html=title.innerHTML.trim();
   let charIdx=0;
   const wrapped=html.replace(/(<[^>]+>)|(\S)|(\s)/g,(m,tag,ch,sp)=>{
     if(tag)return tag;
